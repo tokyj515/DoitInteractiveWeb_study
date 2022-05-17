@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main {
+	width:100%;
+	height:100vh;
+	background:lightcyan;
+}
+
+/*section 요소 설정*/
+/* section {
+	border:10px solid blue;
+    display: inline-flex; 
+    flex-direction: row;
+} */
+
+/* section {
+	border:10px solid blue;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+/* section {
+	border:10px solid blue;
+    display: flex; 
+    flex-flow: row wrap;
+} */
+
+/* section {
+    width: 100%;
+    height: 100%;
+	border:10px solid blue;
+    box-sizing: border-box;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+} */
+
+/* section {
+    width: 100%;
+    height: 100%;
+	border:10px solid blue;
+    box-sizing: border-box;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+} */
+
+/* section {
+    width: 100%;
+    height: 100%;
+	border:10px solid blue;
+    box-sizing: border-box;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+section {
+    width: 100%;
+    height: 100%;
+	border:10px solid blue;
+    box-sizing: border-box;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+
+/*section 자식 요소 설정*/
+section article {
+	width:100px;
+	height:100px;   
+	background:aqua;
+	border:1px solid #000;
+}
+
+
