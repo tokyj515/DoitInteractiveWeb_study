@@ -112,7 +112,7 @@ section .people .family{
 
 
 
-/*키프레임 설정*/
+/*키프레임 설정, 자동 애니메이션 같은 것*/
 /*마을 중간에 있는 놀이기구를 계속 돌리기*/
 @keyframes rotation{
 	0% {transform: rotate(0deg);}
